@@ -2,7 +2,7 @@ import React from 'react'
 
 const FirstAdminPage = () => {
   return (
-    <div>FirstAdminPage</div>
+    <div><div>FirstAdminPage</div></div>
   )
 }
 
