@@ -4,6 +4,7 @@ import LandingPage from "./pages/LandingPage"
 import SignUp from "./pages/SignUp"
 import HomePage from "./pages/HomePage"
 import ProfilePage from "./pages/ProfilePage"
+import Admin from "./pages/Admin"
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/profile' element={<ProfilePage/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/admin' element={<Admin/>}/>
       </Routes>
     </BrowserRouter>
     </>
